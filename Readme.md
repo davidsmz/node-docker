@@ -17,7 +17,7 @@ docker build -t nodedev .
 This container delete before stop
 
 ```bash
-docker-compose run --rm --service-ports nodedev
+docker-compose run --rm --service-ports node-dev
 ```
 
 ### 3.create a file .env with params
